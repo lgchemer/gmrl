@@ -8,7 +8,7 @@ show_post_date: false
 layout: list
 
 teaching_items:
-  - title: "CGN 5930 - Energy and Variational Methods in Mechanics"
+  - title: "CGN 5930 - Introduction to Energy and Variational Methods in Mechanics"
     image: "teaching-1.svg"
     description: "Course 1 is a placeholder teaching entry highlighting a core topic in mechanics, materials, or computational analysis with a short overview of the course focus."
   - title: "CEG 4012 - Geotechnical Engienering II"
