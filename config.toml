@@ -33,7 +33,7 @@ enableEmoji = true
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
   logo = "/img/gmrl-logo.png"
-  mainSections = ["blog", "project", "team", "research", "facility", "teaching", "talk"]
+  mainSections = ["blog", "project", "team", "research", "teaching", "facility", "collaborators", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -130,6 +130,11 @@ enableEmoji = true
     title = "Facility"
     url = "/facility/"
     weight = 6
+  [[menu.header]]
+    name = "Collaborators"
+    title = "Collaborators"
+    url = "/collaborators/"
+    weight = 7
   # Configure footer  
   [[menu.footer]]
     name = "License"
