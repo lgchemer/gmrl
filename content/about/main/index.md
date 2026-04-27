@@ -1,14 +1,9 @@
 ---
-## Configure page content in wide column
-title: "What I'm up to lately" # leave blank to exclude
-number_featured: 1 # pulling from mainSections in config.toml
-number_categories: 3 # set to zero to exclude
+title: "About This Website"
 show_intro: true
 intro: |
-  Cultures clash as I adjust to the challenges of life in Paris while juggling my career, new friendships, and love life. Here is how to catch up with me lately!
-show_outro: true
-outro: |
-  <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://ko-fi.com/)!
+  This website shares the work of the Granular Micromechanics Research Laboratory at Florida International University. It highlights the lab's research, team members, facilities, and latest news while providing a central place to explore ongoing activities and discoveries in granular materials and micromechanics.
+show_outro: false
 ---
 
 ** index doesn't contain a body, just front matter above.
