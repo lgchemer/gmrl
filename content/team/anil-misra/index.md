@@ -1,5 +1,5 @@
 ---
-title: "Anil Misra"
+title: "Anil Misra, PhD, PE"
 excerpt: "Director"
 date: 2026-04-27
 author: "The Granular Mechanics Research Laboratory"
