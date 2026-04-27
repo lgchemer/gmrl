@@ -3,7 +3,7 @@ title: "About"
 description: |
   A Hugo theme made for R Markdown users.
 show_header: false
-sidebar_left: false
+sidebar_left: false 
 # Keep this! Do not edit.
 cascade:
   headless: true
