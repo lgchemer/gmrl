@@ -26,14 +26,14 @@ cascade:
     text_link_url: /team/
     show_sidebar_adunit: false
 alumni:
-  - name: "Lance A. Roberts"
+  - name: "Lance A. Roberts, PhD, PE"
     affiliation: "Provost and Vice President of Academic Affairs, South Dakota School of Mines & Technology"
     links:
       - icon: globe
         icon_pack: fas
         name: Website
         url: https://www.sdsmt.edu/about/directory/roberts_lance.html
-  - name: "Ranganathan Parthasarathy"
+  - name: "Ranganathan Parthasarathy, PhD"
     affiliation: "Assistant Professor, Tennessee State University"
     links:
       - icon: google-scholar
@@ -44,6 +44,24 @@ alumni:
         icon_pack: fas
         name: Website
         url: https://www.tnstate.edu/nanobio/bios/parthasarathy-ranganathan.aspx
+  - name: "Payam Poorsolhjouy, PhD"
+    affiliation: "Assistant Professor, Eindhoven University of Technology"
+    links:
+      - icon: google-scholar
+        icon_pack: ai
+        name: Google Scholar
+        url: https://scholar.google.com/citations?user=ZkQYkegAAAAJ
+      - icon: globe
+        icon_pack: fas
+        name: Website
+        url: https://www.tue.nl/en/research/researchers/payam-poorsolhjouy
+  - name: "Sumana Bhattacharya, PhD"
+    affiliation: "Transportation Engineer (Civil), CalTrans"
+    links:
+      - icon: google-scholar
+        icon_pack: ai
+        name: Google Scholar
+        url: https://scholar.google.com/citations?user=ZkQYkegAAAAJ
 ---
 
 ** No content for the team index. This file provides front matter for the team listing page. **
