@@ -12,10 +12,38 @@
         {{ with .Params.description }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
         {{ if .Params.show_action_link }}<a class="mt4 action {{ .Params.action_type }}" href="{{ .Params.action_link | relURL }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
       </div>
-      <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
+      <div class="w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
+        <div class="w-100 flex justify-center {{ if .Params.image_left }}justify-center{{ else }}justify-end-l{{ end }}">
       {{ with .Params.images }}
-        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}"/>{{ end }}
+        {{ $resolvedImages := slice }}
+        {{ range . }}
+          {{ $resolvedImages = $resolvedImages | append (. | relURL) }}
+        {{ end }}
+        {{ $firstImage := index $resolvedImages 0 }}
+        <img
+          class="mv0 w-70-m"
+          src="{{ $firstImage }}"
+          data-random-image="true"
+          data-image-options='{{ $resolvedImages | jsonify }}'
+          alt="{{ $.Title }}"
+        />
+        <script>
+          (function() {
+            var imageEl = document.querySelector('[data-random-image="true"]');
+            if (!imageEl) return;
+            try {
+              var options = JSON.parse(imageEl.getAttribute('data-image-options') || '[]');
+              if (!Array.isArray(options) || options.length === 0) return;
+              var randomIndex = Math.floor(Math.random() * options.length);
+              var chosen = options[randomIndex];
+              if (chosen) imageEl.src = chosen;
+            } catch (error) {
+              console.warn('Unable to randomize homepage image.', error);
+            }
+          })();
+        </script>
       {{ end }}
+        </div>
       </div>
     </div>
   </section>

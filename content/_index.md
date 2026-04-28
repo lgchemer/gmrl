@@ -7,6 +7,9 @@ description: "Advancing research at the intersection of micromechanics and granu
 date: 2026-04-23T12:27:33-06:00
 images:
   - img/GRAMMR_Logo1.png
+  - img/FIU_GRANULAR_PARTICLE_LOGO.gif
+  - img/G_Logo.png
+  - img/meta-mat-1.png
 image_left: true
 text_align_left: true
 show_social_links: true # specify social accounts in site config
