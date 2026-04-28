@@ -16,7 +16,7 @@
   {{ end }}
   <div class="ph0 pa2-m pa3-l">
     <div class="flex items-center flex-wrap mt2 mb1">
-      <h1 class="f3 f4-l ma0 lh-title fw4"><a href="{{ $page.RelPermalink }}" class="db">{{ $page.Title | markdownify }}</a></h1>
+      <h1 class="f3 f4-l ma0 lh-title fw6"><a href="{{ $page.RelPermalink }}" class="db">{{ $page.Title | markdownify }}</a></h1>
       {{ with $page.Params.links }}
       <div class="flex items-center ml2 f4">
         {{ range . }}
