@@ -3,7 +3,7 @@
 {{ $pages := (where .RegularPagesRecursive "Type" "team") }}
 {{ $principalInvestigators := sort (sort (where $pages "Params.team_section" "principal-investigators") "Title") "Weight" }}
 {{ $currentStudents := sort (sort (where $pages "Params.team_section" "current-students") "Title") "Weight" }}
-{{ $alumni := .Params.alumni }}
+{{ $alumniSections := .Params.alumni_sections }}
 <main class="page-main pa4" role="main">
   <section class="blog-intro mw8 center tc mb5">
     <h2 class="f2 f1-ns lh-solid center fw4">{{ .Title }}</h2>
@@ -30,14 +30,19 @@
     </div>
   </section>
   {{ end }}
-  {{ if gt (len $alumni) 0 }}
+  {{ if gt (len $alumniSections) 0 }}
   <section class="mw8 center mb5">
     <h3 class="f3 lh-title fw6 mt0 mb4 tl">Alumni</h3>
-    <ul class="blog-content list pl3 mv0">
-      {{ range $alumni }}
-        {{ partial "team/alumni-list-item" (dict "member" .) }}
-      {{ end }}
-    </ul>
+    {{ range $alumniSections }}
+    <div class="mb4">
+      <h4 class="f4 lh-title fw6 mt0 mb3 tl">{{ .title }}</h4>
+      <ul class="blog-content list pl3 mv0">
+        {{ range .members }}
+          {{ partial "team/alumni-list-item" (dict "member" .) }}
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
   </section>
   {{ end }}
 </main>

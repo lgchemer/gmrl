@@ -53,4 +53,4 @@ Dr. Misra has co-edited four books, guest edited six journal special issues, and
 - Chair Professor, Shanghai Jiao Tong University, China
 - Fellow, American Society of Civil Engineers (ASCE) (2017)
 - Fulbright Specialist (roster February 2018), Warsaw University Technology (May 2018)
-- Eugenio Beltrami Senior Scientist Prize (2017), International Research Center on Mathematics & Mechanics of Complex Systems (M&MoCS), Universita dell'Aquila, Italy, (Misra Laudatio)
+
