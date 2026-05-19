@@ -50,8 +50,8 @@ alumni_sections:
         links:
           - icon: google-scholar
             icon_pack: ai
-            name: https://scholar.google.com/citations?user=NHOnxxgAAAAJ
-            url: place-holder
+            name: Google Scholar
+            url: https://scholar.google.com/citations?user=NHOnxxgAAAAJ
       - name: "Miriam Beatriz Lusk, PhD"
       - name: "Ranganathan Parthasarathy, PhD"
         affiliation: "Assistant Professor, Tennessee State University"
