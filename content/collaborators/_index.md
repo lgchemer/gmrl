@@ -8,3 +8,4 @@ show_post_date: false
 
 - [Mathematics & Mechanics of Complex Systems (M&MoCS)](http://memocscenter.univaq.it/memocs/en/)
 - [Institute for Bioengineering Research (IBER)](https://berc.ku.edu/)
+- [NJIT Granular Science Laboratory](https://web.njit.edu/~rosato/index.php/home)
