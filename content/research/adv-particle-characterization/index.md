@@ -20,12 +20,12 @@ weight: 3
 
 ---
 
-## **Current Projects**
+## **Sponsored Projects**
 
-![Current projects placeholder figure](featured.svg)
+![Sponsored projects placeholder figure](featured.svg)
 
-**Current Project Placeholder 1** This placeholder can summarize active computational projects, including model development, algorithm design, simulation workflows, and high-performance computing efforts. Use this space to describe project goals, collaborators, expected outcomes, and how the work advances predictive tools for complex materials.
+**Sponsored Project Placeholder 1** This placeholder can summarize active computational projects, including model development, algorithm design, simulation workflows, and high-performance computing efforts. Use this space to describe project goals, collaborators, expected outcomes, and how the work advances predictive tools for complex materials.
 
-![Second current projects placeholder figure](featured.svg)
+![Second Sponsored projects placeholder figure](featured.svg)
 
-**Current Project Placeholder 2** This placeholder can describe another active research effort, such as multiscale method development, AI-driven analysis, numerical experiments, or software tools for complex material systems.
+**Sponsored Project Placeholder 2** This placeholder can describe another active research effort, such as multiscale method development, AI-driven analysis, numerical experiments, or software tools for complex material systems.

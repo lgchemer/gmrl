@@ -20,12 +20,12 @@ weight: 1
 
 ---
 
-## **Current Projects**
+## **Sponsored Projects**
 
-![Current projects placeholder figure](featured.svg)
+![Sponsored projects placeholder figure](featured.svg)
 
-**Current Project Placeholder 1** This placeholder can summarize active projects related to the Granular Micromechanics Approach, including model development, particle interaction laws, multiscale analysis, and applications to complex material systems.
+**Sponsored Project Placeholder 1** This placeholder can summarize active projects related to the Granular Micromechanics Approach, including model development, particle interaction laws, multiscale analysis, and applications to complex material systems.
 
-![Second current projects placeholder figure](featured.svg)
+![Second Sponsored projects placeholder figure](featured.svg)
 
-**Current Project Placeholder 2** This placeholder can describe another active research effort, such as extending micromechanical frameworks, connecting simulations with experiments, or developing predictive tools for granular materials.
+**Sponsored Project Placeholder 2** This placeholder can describe another active research effort, such as extending micromechanical frameworks, connecting simulations with experiments, or developing predictive tools for granular materials.
