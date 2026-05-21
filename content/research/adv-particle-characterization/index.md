@@ -1,7 +1,7 @@
 ---
 title: "Advanced Particle Characterization"
-excerpt: "Project 2 focuses on another active research theme, showing how the lab connects mechanics, materials, and data."
-list_figure_caption: "figure caption"
+excerpt: "This effort establishes transformative approaches for systematically understanding how particle geometry governs macroscopic material behavior in ways that have not previously been achieved, even conceptually, in granular material characterization."
+list_figure_caption: "No two particles are exactly alike. Differences in their size, shape, and surface texture strongly influence how granular materials behave."
 date: 2026-04-27
 author: "The Granular Mechanics Research Laboratory"
 draft: false
@@ -11,26 +11,22 @@ weight: 3
 
 ## **Selected Publications**
 
-![Selected publications placeholder figure](featured.svg)
-**Selected Publication Placeholder 1**\
-[Publication Link Placeholder](https://example.com/publication-1)\
-This placeholder can introduce a curated set of publications related to numerical methods, multiscale simulation, and advanced computing. Add a short overview of the publication theme, key findings, methods used, and why these papers are important to the lab's broader research program.
+![Selected publications placeholder figure](PGS.svg)
+**Particle Geometry Space: An integrated characterization of particle shape, surface area, volume, specific surface, and size distribution**\
+[https://doi.org/10.1016/j.trgeo.2025.101579](https://doi.org/10.1016/j.trgeo.2025.101579)\
+This work introduces Particle Geometry Space (PGS), a unified analytical framework integrating particle size (*D*), shape (*β*), surface area (*A*), volume (*V*), and specific surface (*A/V*) into a single geometry-based representation. Moving beyond conventional isolated methods by characterizing size or shape, PGS enables systematic interpretation of all 3D particle geometry attributes in a single space and its relationship to granular material behavior while extending the traditional particle size distribution concept into a multidimensional framework.
 
-![Second selected publications placeholder figure](featured.svg)
-**Selected Publication Placeholder 2**\
-[Publication Link Placeholder](https://example.com/publication-2)\
-This placeholder can highlight another publication theme, such as algorithm development, high-performance simulation, machine learning-assisted modeling, or validation against experimental observations.
+
+![figure](KONA.svg)
+**Towards 3D shape estimation from 2D particle images: a state-of-the-art review and demonstration**\
+[https://doi.org/10.14356/kona.2025017](https://doi.org/10.14356/kona.2025017)\
+This work investigates the relationship between 2D and 3D particle shape characterization to enable efficient estimation of 3D particle geometry from limited 2D images. Through analysis of approximately 400 mineral particles, the study reveals a strong correlation between 2D perimeter circularity (*c*<sub>p</sub>) and Wadell’s true sphericity (*S*) defined in 3D, establishing a cost-effective framework for reliable particle shape characterization.
 
 ---
 
 ## **Sponsored Projects**
 
-![Sponsored projects placeholder figure](featured.svg)
-**Sponsored Project Placeholder 1**\
-[Project Link Placeholder](https://example.com/project-1)\
-This placeholder can summarize active computational projects, including model development, algorithm design, simulation workflows, and high-performance computing efforts. Use this space to describe project goals, collaborators, expected outcomes, and how the work advances predictive tools for complex materials.
-
-![Second Sponsored projects placeholder figure](featured.svg)
-**Sponsored Project Placeholder 2**\
-[Project Link Placeholder](https://example.com/project-2)\
-This placeholder can describe another active research effort, such as multiscale method development, AI-driven analysis, numerical experiments, or software tools for complex material systems.
+![Sponsored projects placeholder figure](3Dscan.png)
+**Collaborative Research: A New Theory of 3D Particle Characterization**\
+[Sponsor: National Science Foundation (PI: Seung Jae Lee)](https://www.nsf.gov/awardsearch/show-award?AWD_ID=1938431)\
+This project develops a new theory for comprehensive 3D particle geometry characterization by integrating volume, surface area, size, and shape into a unified framework. The research investigates the coupled influence of these geometry attributes on granular material behavior, including strength and dilatancy, enabling improved understanding and design of civil infrastructure subjected to natural hazards.
