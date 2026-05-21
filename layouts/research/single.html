@@ -2,7 +2,7 @@
 <main class="page-main pa4 research-detail" role="main">
   <style>
     .research-detail .page-content {
-      max-width: 72rem;
+      max-width: 80rem;
     }
 
     .research-detail .post-header h1 {
@@ -37,15 +37,39 @@
       margin-bottom: 2.5rem;
     }
 
+    .research-detail .post-body p:has(> img) + p > strong:first-child {
+      display: block;
+      margin-bottom: 0.1rem;
+    }
+
+    .research-detail .post-body p:has(> img) + p > strong:first-child + br {
+      display: none;
+    }
+
+    .research-detail .post-body p:has(> img) + p > strong:first-child + br + a {
+      display: block;
+      margin-top: 0;
+      margin-bottom: 0.05rem;
+      font-size: 0.95em;
+    }
+
+    .research-detail .post-body p:has(> img) + p > strong:first-child + br + a + br {
+      display: none;
+    }
+
     .research-detail .post-body p + h2 {
       margin-top: 2.5rem;
+    }
+
+    .research-detail .post-body hr + h2 {
+      margin-top: 0;
     }
 
     .research-detail .post-body hr {
       clear: both;
       border: 0;
       border-bottom: 1px solid rgba(112, 0, 0, 0.25);
-      margin: 7rem 0 3rem;
+      margin: 3rem 0 3rem;
     }
 
     @media (max-width: 48rem) {
@@ -62,6 +86,10 @@
 
       .research-detail .post-body p + h2 {
         margin-top: 2rem;
+      }
+
+      .research-detail .post-body hr + h2 {
+        margin-top: 0;
       }
 
       .research-detail .post-body hr {

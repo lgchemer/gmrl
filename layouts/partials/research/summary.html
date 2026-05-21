@@ -17,6 +17,9 @@
           <img src="{{ .RelPermalink | absURL }}" class="db ma0 dim" alt="">
         {{ end }}
       </a>
+      {{ with $page.Params.list_figure_caption }}
+      <figcaption class="f4 lh-title mt2 i dark-gray">{{ . | markdownify }}</figcaption>
+      {{ end }}
     </figure>
     <div class="flex flex-column w-100 w-70-ns {{ if $root.Params.thumbnail_left }}pr2-ns{{ else }}pl2-ns{{ end }}">
       <header class="w-100">

@@ -10,6 +10,7 @@ images:
   - img/FIU_GRANULAR_PARTICLE_LOGO.gif
   - img/G_Logo.png
   - img/meta-mat-1.png
+  - img/column-collapse.png
 image_left: true
 text_align_left: true
 show_social_links: true # specify social accounts in site config
