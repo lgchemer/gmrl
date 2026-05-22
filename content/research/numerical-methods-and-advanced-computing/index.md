@@ -33,4 +33,5 @@ This project develops DEMIAN (Discrete Element Method Infused with Artificial Ne
 ![figure](ionq.jpg)
 **QUAD: Quantum Computing-Accelerated Discrete Element Method**\
 [Sponsor: FIU Office of the Provost (PI: Seung Jae Lee)](https://provost.fiu.edu/)\
-This project aims to develop QUAD, a quantum computing–accelerated discrete element method for simulating granular materials. By reformulating DEM computational bottlenecks to exploit quantum computing, the project aims to dramatically accelerate large-scale particle simulations beyond the limits of conventional and high-performance computing, enabling transformative advances in granular mechanics, hazard prediction, and engineering design.
+This project aims to develop QUAD, a quantum computing–accelerated discrete element method for simulating granular materials. By reformulating DEM computational bottlenecks to exploit quantum computing, the project seeks to dramatically accelerate large-scale particle simulations beyond the limits of conventional and high-performance computing, enabling transformative advances in granular mechanics, hazard prediction, and engineering design.
+
