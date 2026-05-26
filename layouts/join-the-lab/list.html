@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header tc">
+        <h1 class="f2 f1-ns lh-solid center fw4">{{ .Title | markdownify }}</h1>
+      </header>
+      <section class="post-body pt4 pb4">
+        {{ .Content }}
+        <p class="mt4">
+          <a class="link dim dib" href="{{ "join-the-lab/index.xml" | absURL }}" aria-label="Subscribe to Join the Lab opportunities RSS feed">
+            <i class="fas fa-rss" aria-hidden="true"></i>
+            <span class="ml2">Subscribe to opportunity updates</span>
+          </a>
+        </p>
+      </section>
+    </article>
+  </section>
+</main>
+{{ end }}

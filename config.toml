@@ -135,6 +135,11 @@ enableEmoji = true
     title = "Collaborators"
     url = "/collaborators/"
     weight = 7
+  [[menu.header]]
+    name = "Join the Lab"
+    title = "Join the Lab"
+    url = "/join-the-lab/"
+    weight = 8
   # Configure footer  
   [[menu.footer]]
     name = "License"
