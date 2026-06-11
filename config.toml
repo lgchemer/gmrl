@@ -28,8 +28,8 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "Savoir"
-  orgLocal = "Paris"
+  orgName = "Granular Micromechanics Research Laboratory"
+  orgLocal = "Florida International University"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
   logo = "/img/gmrl-logo.png"
@@ -135,17 +135,17 @@ enableEmoji = true
     title = "Collaborators"
     url = "/collaborators/"
     weight = 7
+  [[menu.header]]
+    name = "Join the Lab"
+    title = "Join the Lab"
+    url = "/join-the-lab/"
+    weight = 8
   # Configure footer  
   [[menu.footer]]
     name = "License"
     title = "License"
     url = "/license/"
     weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
