@@ -12,6 +12,19 @@ links:
     icon_pack: ai
     name: Google Scholar
     url: https://scholar.google.com/citations?user=0q0VC2YAAAAJ&hl=en
+  - icon: orcid
+    icon_pack: ai
+    name: orcid
+    url: https://orcid.org/0000-0002-2180-3502
+  - icon: globe
+    icon_pack: fas
+    name: Personal Website
+    url: https://lgchemer.github.io/sjlee
+  - icon: address-card
+    icon_pack: far
+    name: Department Website
+    url: https://cec.fiu.edu/about/directory/profiles/seung-jae-lee.html
+    
 ---
 
 ## Bio

@@ -7,6 +7,15 @@ draft: false
 layout: single
 team_section: "current-students"
 weight: 1
+links:
+  - icon: google-scholar
+    icon_pack: ai
+    name: Google Scholar
+    url: https://scholar.google.com/citations?user=xyCN538AAAAJ&hl=en
+  - icon: linkedin
+    icon_pack: fab
+    name: LinkedIn
+    url: https://www.linkedin.com/in/nurettin-yilmaz-032a69284/
 ---
 
 Nurettin Yilmaz is a Ph.D. candidate in Civil Engineering at Florida International University since January 2025. He holds a B.Sc. in Naval Architecture and Marine Engineering from Istanbul Technical University and an M.Sc. in Civil Engineering from the University of L’Aquila. His research bridges mathematical modeling, computational mechanics, and continuum mechanics, with a focus on understanding the mechanical behavior of granular materials using continuum models.

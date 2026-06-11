@@ -7,6 +7,11 @@ draft: false
 layout: single
 team_section: "current-students"
 weight: 2
+links:
+  - icon: researchgate
+    icon_pack: fab
+    name: ResearchGate
+    url: https://www.researchgate.net/profile/Larry-Murcia-Terranova
 ---
 
 Larry Murcia is a PhD student in Civil Engineering at Florida International University and a PhD student in Mathematics and Modeling at the University of L’Aquila. He holds a Master’s degree in Applied Mathematics from Universidad Nacional de Colombia and a degree in Applied Mathematics from Pontificia Universidad Javeriana. His research interests include variational modeling, nonlinear dynamics, solid mechanics, metamaterials, and nonlinear oscillatory systems.

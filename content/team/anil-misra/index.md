@@ -12,10 +12,19 @@ links:
     icon_pack: ai
     name: Google Scholar
     url: https://scholar.google.com/citations?hl=en&user=z6WqxHAAAAAJ
+  - icon: orcid
+    icon_pack: ai
+    name: orcid
+    url: https://orcid.org/0000-0002-9761-2358
   - icon: globe
     icon_pack: fas
     name: Personal Website
     url: https://myweb.fiu.edu/anmisra/
+  - icon: address-card
+    icon_pack: far
+    name: Department Website
+    url: https://cec.fiu.edu/about/directory/profiles/anil-misra.html
+    
 ---
 
 ## Bio

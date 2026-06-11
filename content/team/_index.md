@@ -109,10 +109,10 @@ alumni_sections:
             url: https://scholar.google.com/citations?user=y3UlE8EAAAAJ&hl=en
       - name: "Priya Tripathi, PhD"
         links:
-          - icon: linkedin
+          - icon: researchgate
             icon_pack: fab
-            name: LinkedIn
-            url: https://www.linkedin.com/in/priya-tripathi-83955030a/
+            name: ResearchGate
+            url: https://www.researchgate.net/profile/Priya-Tripathi-9
       - name: "Mohammad Abu-Haifa, PhD, PE"
         affiliation: "Project Engineer, Marcon Forensics"
         links:
