@@ -1,0 +1,18 @@
+{{ $imageName := .Get "image" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" }}
+{{ $image := .Page.Resources.GetMatch $imageName }}
+
+<div class="research-captioned-entry">
+  <figure class="research-captioned-entry-figure">
+    {{ with $image }}
+      <img src="{{ .RelPermalink | absURL }}" alt="{{ $alt }}">
+    {{ end }}
+    {{ with $caption }}
+      <figcaption>{{ . | markdownify }}</figcaption>
+    {{ end }}
+  </figure>
+  <div class="research-captioned-entry-body">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

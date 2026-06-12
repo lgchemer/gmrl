@@ -2,7 +2,7 @@
 title: "About This Website"
 show_intro: true
 intro: |
-  This website presents the research activities and vision of the Granular Micromechanics Research Lab at Florida International University, directed by Anil Misra and Seung Jae Lee. Collectively, they bring more than 40 years of research experience and expertise in granular mechanics, computational modeling, and materials characterization.
+  This website presents the research activities and vision of the Granular Micromechanics Research Lab at Florida International University, directed by [Anil Misra](https://cec.fiu.edu/about/directory/profiles/anil-misra.html) and [Seung Jae Lee](https://cec.fiu.edu/about/directory/profiles/seung-jae-lee.html). Collectively, they bring more than 40 years of research experience and expertise in granular mechanics, computational modeling, and materials characterization.
 
   Our research focuses on advancing the fundamental understanding of granular and heterogeneous materials through integrated analytical, computational, and experimental micromechanics. We seek to uncover how complex macroscopic behavior emerges from microscopic particle interactions across multiple scales and to translate these insights into predictive frameworks for engineering and scientific applications.
 

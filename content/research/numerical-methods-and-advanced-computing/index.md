@@ -25,13 +25,13 @@ This study develops an image-based 3D modeling-to-simulation framework for rapid
 
 ## **Sponsored Projects**
 
-![figure](dune-part-2.png)
+{{< research-captioned-entry image="quilt.png" alt="A quilt visually echoing the layered structure of an ANN" caption="Log Cabin (Courthouse Steps/\"Bricklayer\" variation) quilt, by Loretta Pettway (1959)" >}}
 **BRITE Pivot: DEMIAN - Discrete Element Method Infused with Artificial Neural computations**\
 [Sponsor: National Science Foundation (PI: Seung Jae Lee)](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2527265)\
-This project develops DEMIAN (Discrete Element Method Infused with Artificial Neural computations), a next-generation discrete element simulation framework that integrates AI-driven computations to enable real-time, high-fidelity simulation of granular materials at unprecedented scale. 
+This project develops DEMIAN (Discrete Element Method Infused with Artificial Neural computations), a next-generation discrete element simulation framework that integrates AI-driven computations to enable real-time, high-fidelity simulation of granular materials at unprecedented scale.
+{{< /research-captioned-entry >}}
 
 ![figure](ionq.jpg)
 **QUAD: Quantum Computing-Accelerated Discrete Element Method**\
 [Sponsor: FIU Office of the Provost (PI: Seung Jae Lee)](https://provost.fiu.edu/)\
-This project aims to develop QUAD, a quantum computing–accelerated discrete element method for simulating granular materials. By reformulating DEM computational bottlenecks to exploit quantum computing, the project seeks to dramatically accelerate large-scale particle simulations beyond the limits of conventional and high-performance computing, enabling transformative advances in granular mechanics, hazard prediction, and engineering design.
-
+This project aims to develop QUAD, a quantum computing-accelerated discrete element method for simulating granular materials. By reformulating DEM computational bottlenecks to exploit quantum computing, the project seeks to dramatically accelerate large-scale particle simulations beyond the limits of conventional and high-performance computing, enabling transformative advances in granular mechanics, hazard prediction, and engineering design.
