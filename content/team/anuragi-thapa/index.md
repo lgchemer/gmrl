@@ -12,6 +12,10 @@ links:
     icon_pack: ai
     name: Google Scholar
     url: https://scholar.google.com/citations?user=0Sp2aNEAAAAJ&hl=en
+  - icon: orcid
+    icon_pack: ai
+    name: orcid
+    url: https://orcid.org/0009-0009-1489-6390    
   - icon: researchgate
     icon_pack: fab
     name: ResearchGate

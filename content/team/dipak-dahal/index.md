@@ -12,6 +12,10 @@ links:
     icon_pack: ai
     name: Google Scholar
     url: https://scholar.google.com/citations?user=hHa4Gj4AAAAJ&hl=en
+  - icon: orcid
+    icon_pack: ai
+    name: orcid
+    url: https://orcid.org/0009-0000-1651-9032
   - icon: youtube
     icon_pack: fab
     name: YouTube
