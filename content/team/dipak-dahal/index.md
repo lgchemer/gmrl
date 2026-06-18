@@ -8,6 +8,14 @@ layout: single
 team_section: "current-students"
 weight: 3
 links:
+  - icon: globe
+    icon_pack: fas
+    name: Personal Website
+    url: https://dipakdahal0.com.np/
+  - icon: linkedin
+    icon_pack: fab
+    name: LinkedIn
+    url: https://www.linkedin.com/in/dipakdahalofficial
   - icon: google-scholar
     icon_pack: ai
     name: Google Scholar
@@ -16,14 +24,14 @@ links:
     icon_pack: ai
     name: orcid
     url: https://orcid.org/0009-0000-1651-9032
+  - icon: researchgate
+    icon_pack: fab
+    name: ResearchGate
+    url: https://www.researchgate.net/profile/Dipak-Dahal-4
   - icon: youtube
     icon_pack: fab
     name: YouTube
     url: https://www.youtube.com/@dipakdahalofficial
-  - icon: facebook-square
-    icon_pack: fab
-    name: Facebook
-    url: https://www.facebook.com/dipakdahalofficial
 ---
 
 Dipak Dahal is a Ph.D. student since August 2024, admitted directly into the doctoral program after completing his bachelor’s degree in Civil Engineering from Pokhara University. His research focuses on understanding granular materials through particle-scale characterization and establishing links between microscopic particle attributes and macroscopic material behavior.
