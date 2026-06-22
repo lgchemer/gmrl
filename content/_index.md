@@ -1,9 +1,10 @@
 ---
-title: "Granular Micromechanics Research Laboratory"
+title: "GRANITA Lab"
+tagline: "GRANITA: Granular Micromechanics from Theory to Applications"
 department: "Dept. of Civil and Environmental Engineering"
 college: "College of Engineering and Computing"
 subtitle: "Florida International University, Miami, FL"
-description: "Advancing research at the intersection of micromechanics and granular materials. Explore our innovative projects, meet our dedicated team, and discover how we are shaping the future of granular materials research at FIU."
+description: "GRANITA (Granular Micromechanics from Theory to Applications) Lab advances research at the intersection of micromechanics and granular materials. From fundamental theory to engineering applications, we seek to uncover the mechanics governing granular systems. Our name may be an acronym, but we do not mind sharing it with the Italian frozen dessert *granita* - after all, who would not want to do cool research? Explore our projects, meet our team, and discover how we are shaping the future of granular materials research at FIU."
 date: 2026-04-23T12:27:33-06:00
 images:
   - img/GRAMMR_Logo1.png
