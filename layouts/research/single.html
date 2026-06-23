@@ -87,11 +87,32 @@
     .research-detail .post-body .research-captioned-entry-body {
       flex: 1 1 auto;
       min-width: 0;
+      line-height: 1.6;
     }
 
     .research-detail .post-body .research-captioned-entry-body > p:first-child {
       line-height: 1.6;
       margin: 0;
+    }
+
+    .research-detail .post-body .research-captioned-entry-body > strong:first-child {
+      display: block;
+      margin-bottom: 0.1rem;
+    }
+
+    .research-detail .post-body .research-captioned-entry-body > strong:first-child + br {
+      display: none;
+    }
+
+    .research-detail .post-body .research-captioned-entry-body > strong:first-child + br + a {
+      display: block;
+      margin-top: 0;
+      margin-bottom: 0.05rem;
+      font-size: 0.95em;
+    }
+
+    .research-detail .post-body .research-captioned-entry-body > strong:first-child + br + a + br {
+      display: none;
     }
 
     .research-detail .post-body .research-captioned-entry-body > p:first-child > strong:first-child {
