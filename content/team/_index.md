@@ -108,6 +108,7 @@ alumni_sections:
             name: Google Scholar
             url: https://scholar.google.com/citations?user=y3UlE8EAAAAJ&hl=en
       - name: "Priya Tripathi, PhD"
+        affiliation: "Geotechnical Engineer, Skyrise Engineering"
         links:
           - icon: researchgate
             icon_pack: fab
