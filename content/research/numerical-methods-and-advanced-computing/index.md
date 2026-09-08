@@ -31,7 +31,14 @@ This study develops an image-based 3D modeling-to-simulation framework for rapid
 This project develops DEMIAN (Discrete Element Method Infused with Artificial Neural computations), a next-generation discrete element simulation framework that integrates AI-driven computations to enable real-time, high-fidelity simulation of granular materials at unprecedented scale.
 {{< /research-captioned-entry >}}
 
-![figure](ionq.jpg)
+{{< research-captioned-entry image="ionq.jpg" alt="IonQ quantum computing hardware" caption_title="**IonQ quantum computing hardware.**" caption="Quantum computing offers a promising pathway for accelerating computationally intensive particle-scale simulations." >}}
 **QUAD: Quantum Computing-Accelerated Discrete Element Method**\
 [Sponsor: FIU Office of the Provost (PI: Seung Jae Lee)](https://provost.fiu.edu/)\
 This project aims to develop QUAD, a quantum computing-accelerated discrete element method for simulating granular materials. By reformulating DEM computational bottlenecks to exploit quantum computing, the project seeks to dramatically accelerate large-scale particle simulations beyond the limits of conventional and high-performance computing, enabling transformative advances in granular mechanics, hazard prediction, and engineering design.
+{{< /research-captioned-entry >}}
+
+{{< research-captioned-entry image="opportunity-wheel.gif" alt="NASA Mars rover Opportunity wheel stuck in sand" caption_title="**NASA's Mars rover** ***Opportunity*** **wheel stuck in sand.**" caption="NASA's Mars rover *Opportunity* became trapped in a ripple of loose sand in 2005, requiring nearly five weeks of carefully planned maneuvers to escape. This incident highlights the importance of accurate and computationally efficient regolith contact models for predicting wheel traction and mobility and reducing risk in future lunar and planetary surface operations." >}}
+**Rapid Contact Dynamics for Surface Operations**\
+[Sponsor: National Aeronautics and Space Administration (PI: Seung Jae Lee)](https://www.herox.com/NASAMPLAN/updates)\
+This project develops a rapid, high-fidelity computational framework for simulating interactions between lunar regolith and surface systems such as rover wheels, lander footpads, excavation tools, and construction equipment. The research aims to overcome the high computational cost of conventional discrete element method (DEM) simulations while preserving high fidelity of granular contact behavior. By enabling efficient modeling of traction, sinkage, excavation forces, terrain disturbance, and regolith-structure interactions, the project supports virtual prototyping and mission planning for NASA's Artemis program and future sustained lunar surface operations. The rapid simulation capability can also enable large-scale generation of high-fidelity datasets for emerging AI-assisted modeling and design applications.
+{{< /research-captioned-entry >}}

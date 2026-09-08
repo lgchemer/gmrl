@@ -1,15 +1,20 @@
 {{ $imageName := .Get "image" }}
 {{ $alt := .Get "alt" | default "" }}
+{{ $captionTitle := .Get "caption_title" }}
 {{ $caption := .Get "caption" }}
+{{ $separate := .Get "separate" }}
 {{ $image := .Page.Resources.GetMatch $imageName }}
 
-<div class="research-captioned-entry">
+<div class="research-captioned-entry{{ if eq $separate "true" }} research-captioned-entry-separated{{ end }}">
   <figure class="research-captioned-entry-figure">
     {{ with $image }}
       <img src="{{ .RelPermalink | absURL }}" alt="{{ $alt }}">
     {{ end }}
-    {{ with $caption }}
-      <figcaption>{{ . | markdownify }}</figcaption>
+    {{ if or $captionTitle $caption }}
+      <figcaption>
+        {{ with $captionTitle }}<span class="research-caption-title">{{ . | markdownify }}</span>{{ end }}
+        {{ with $caption }}<span class="research-caption-detail">{{ . | markdownify }}</span>{{ end }}
+      </figcaption>
     {{ end }}
   </figure>
   <div class="research-captioned-entry-body">
